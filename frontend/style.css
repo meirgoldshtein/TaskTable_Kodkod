@@ -29,8 +29,24 @@ h1{
     text-align: center;
     border: 1px solid gray;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
+.options{
+    width: 25%;
+    height: 15vh;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
 select {
 font-size: 0.9rem;
 padding: 2px 5px;
